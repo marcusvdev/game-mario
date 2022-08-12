@@ -1,5 +1,10 @@
 # Game Mario
 
+<p>
+    <img src="https://img.shields.io/github/license/marcusvdev/game-mario">
+    <img src="https://img.shields.io/badge/built%20with-GULP-red">
+</p>
+
 Developed with:
 
 <p>
