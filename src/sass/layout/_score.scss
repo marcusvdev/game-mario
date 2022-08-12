@@ -1,0 +1,14 @@
+.score{    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+
+    p{
+        font-size: 34px;
+    }
+}

@@ -1,0 +1,22 @@
+.clouds{
+    width: 90%;
+    opacity: .8;
+
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+
+    
+    &.start{
+        animation: clouds-animate 5s infinite linear;
+    }
+}
+
+@keyframes clouds-animate {
+    from{
+        right: -90%;
+    }
+    to{
+        right: 100%;
+    }
+}
