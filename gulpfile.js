@@ -21,7 +21,7 @@ const js = () => gulp.src('./src/js/*.js')
   .pipe(minify())
   .pipe(gulp.dest('./dist/js/'))
 
-exports.serve = () => {
+exports.watch = () => {
   gulp.watch('./src/sass/**/*.scss', css).on('change', function(path, stats) {
     console.log(`File ${path} was removed`);
   });
